@@ -50,7 +50,6 @@ class App extends Component {
           style={customStyles}
           contentLabel="Example Modal"
         >
-
           <h2 ref={subtitle => this.subtitle = subtitle}>Hello</h2>
           <button onClick={this.closeModal}>close</button>
           <div>I am a modal</div>
